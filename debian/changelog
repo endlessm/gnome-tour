@@ -1,0 +1,6 @@
+gnome-tour (41~rc-0endless1) master; urgency=medium
+
+  * Initial release, T32829
+    Get upstream source from https://download.gnome.org/core/41/41.rc/sources/gnome-tour-41.rc.tar.xz
+
+ -- Jian-Hong Pan <jhp@endlessos.org>  Wed, 10 Aug 2022 11:43:06 +0800
