@@ -57,26 +57,6 @@ impl Window {
 
         self.paginator.borrow_mut().add_page(
             ImagePageWidget::new(
-                "/org/gnome/Tour/search.svg",
-                gettext("Just Type to Search"),
-                gettext("Type in the overview to search. Launch apps, find things."),
-            )
-            .widget
-            .upcast::<gtk::Widget>(),
-        );
-
-        self.paginator.borrow_mut().add_page(
-            ImagePageWidget::new(
-                "/org/gnome/Tour/workspaces.svg",
-                gettext("Keep on Top with Workspaces"),
-                gettext("Easily organize windows with the workspaces view."),
-            )
-            .widget
-            .upcast::<gtk::Widget>(),
-        );
-
-        self.paginator.borrow_mut().add_page(
-            ImagePageWidget::new(
                 "/org/gnome/Tour/blank.svg",
                 gettext("Up/Down for the Overview"),
                 gettext("On a touchpad, use three-finger vertical swipes. Try it!"),
