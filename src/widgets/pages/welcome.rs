@@ -166,6 +166,23 @@ impl WelcomePageWidget {
         text.show();
         container.add(&text);
 
+        let welcome_url = format!(
+            "<a href=\"https://www.endlessos.org/post/endless-os-5-is-coming\">{}</a>",
+            gettext("Learn more about Endless OS 5 on our website")
+        );
+        let url_label = gtk::LabelBuilder::new()
+            .label(&welcome_url)
+            .lines(2)
+            .wrap(true)
+            .justify(gtk::Justification::Center)
+            .valign(gtk::Align::Center)
+            .margin_top(32)
+            .use_markup(true)
+            .build();
+        url_label.get_style_context().add_class("page-body");
+        url_label.show();
+        container.add(&url_label);
+
         container.show();
         self.widget.add(&container);
         self.widget.show();
