@@ -5,16 +5,16 @@ pub struct ImagePageWidget {
 }
 
 impl ImagePageWidget {
-    pub fn new(resource_uri: &str, head: String, body: String) -> Self {
+    pub fn new(resource_uri: &str, head: String, body: String, url: Option<String>) -> Self {
         let widget = gtk::Box::new(gtk::Orientation::Vertical, 0);
 
         let image_page = Self { widget };
 
-        image_page.init(resource_uri, head, body);
+        image_page.init(resource_uri, head, body, url);
         image_page
     }
 
-    fn init(&self, resource_uri: &str, head: String, body: String) {
+    fn init(&self, resource_uri: &str, head: String, body: String, url: Option<String>) {
         self.widget.set_property_expand(true);
         self.widget.get_style_context().add_class("page");
         self.widget.set_halign(gtk::Align::Fill);
@@ -58,6 +58,21 @@ impl ImagePageWidget {
         body_label.get_style_context().add_class("page-body");
         body_label.show();
         container.add(&body_label);
+
+        if url.is_some() {
+            let url_label = gtk::LabelBuilder::new()
+                .label(&url.unwrap())
+                .lines(2)
+                .wrap(true)
+                .justify(gtk::Justification::Center)
+                .valign(gtk::Align::Center)
+                .margin_top(32)
+                .use_markup(true)
+                .build();
+            url_label.get_style_context().add_class("page-body");
+            url_label.show();
+            container.add(&url_label);
+        }
 
         container.show();
         self.widget.add(&container);

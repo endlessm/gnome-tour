@@ -50,6 +50,7 @@ impl Window {
                 "/org/gnome/Tour/overview.svg",
                 gettext("Get an Overview"),
                 gettext("Press the Super key to see open windows and apps."),
+                None,
             )
             .widget
             .upcast::<gtk::Widget>(),
@@ -60,6 +61,7 @@ impl Window {
                 "/org/gnome/Tour/blank.svg",
                 gettext("Up/Down for the Overview"),
                 gettext("On a touchpad, use three-finger vertical swipes. Try it!"),
+                None,
             )
             .widget
             .upcast::<gtk::Widget>(),
@@ -70,6 +72,7 @@ impl Window {
                 "/org/gnome/Tour/blank.svg",
                 gettext("Left/Right for Workspaces"),
                 gettext("On a touchpad, use three-finger horizontal swipes. Try it!"),
+                None,
             )
             .widget
             .upcast::<gtk::Widget>(),
@@ -81,6 +84,10 @@ impl Window {
             "/org/gnome/Tour/ready-to-go.svg",
             gettext("That's it. Have a nice day!"),
             gettext("To get more advice and tips, see the Help app."),
+            Some(format!(
+                "<a href=\"https://www.endlessos.org/post/endless-os-5-is-coming\">{}</a>",
+                gettext("Learn more about Endless OS 5 on our website")
+            )),
         );
         last_page.widget.get_style_context().add_class("last-page");
         self.paginator
