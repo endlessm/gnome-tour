@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the gnome-tour package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Will Thompson <wjt@endlessos.org>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-tour\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-08 00:11+0000\n"
+"POT-Creation-Date: 2022-12-13 22:35+0000\n"
 "PO-Revision-Date: 2022-12-08 00:11+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessos.org>, 2022\n"
 "Language-Team: Slovenian (https://www.transifex.com/endless-os/teams/9016/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,39 +24,39 @@ msgstr ""
 #: data/org.gnome.Tour.desktop.in.in:3
 #: data/org.gnome.Tour.metainfo.xml.in.in:7 src/main.rs:19
 msgid "Tour"
-msgstr ""
+msgstr "Vodič GNOME"
 
 #: data/org.gnome.Tour.desktop.in.in:4
 msgid "Greeter & Tour"
-msgstr ""
+msgstr "Pozdrav in uvod"
 
 #: data/org.gnome.Tour.desktop.in.in:9
 msgid "Gnome;GTK;"
-msgstr ""
+msgstr "Gnome;GTK;Vodnik;vodič;pozdrav;"
 
 #: data/org.gnome.Tour.metainfo.xml.in.in:8
 msgid "GNOME Tour and Greeter"
-msgstr ""
+msgstr "Vodič GNOME"
 
 #: data/org.gnome.Tour.metainfo.xml.in.in:10
 msgid "A guided tour and greeter for GNOME."
-msgstr ""
+msgstr "Vodena predstavitev in dobrodošlica v namizje GNOME:"
 
 #: data/org.gnome.Tour.metainfo.xml.in.in:15
 msgid "Main Window"
-msgstr ""
+msgstr "Glavno okno"
 
 #: data/org.gnome.Tour.metainfo.xml.in.in:38
 msgid "The GNOME Project"
-msgstr ""
+msgstr "Projekt GNOME"
 
 #: src/widgets/pages/welcome.rs:151
 msgid "Start the Tour"
-msgstr ""
+msgstr "Začni z vodenjem"
 
 #: src/widgets/pages/welcome.rs:161
 msgid "Learn about the key features in {} {}."
-msgstr ""
+msgstr "Spoznajte nove in pomembne novosti {} {}."
 
 #: src/widgets/pages/welcome.rs:171 src/widgets/window.rs:89
 msgid "Learn more about Endless OS 5 on our website"
@@ -60,48 +64,52 @@ msgstr ""
 
 #: src/widgets/paginator.rs:32
 msgid "_Start"
-msgstr ""
+msgstr "_Začni"
 
 #: src/widgets/paginator.rs:33
 msgid "_Next"
-msgstr ""
+msgstr "_Naslednji"
 
 #: src/widgets/paginator.rs:34 src/widgets/paginator.rs:35
 msgid "_Close"
-msgstr ""
+msgstr "_Zapri"
 
 #: src/widgets/paginator.rs:36
 msgid "_Previous"
-msgstr ""
+msgstr "_Predhodni"
 
 #: src/widgets/window.rs:51
 msgid "Get an Overview"
-msgstr ""
+msgstr "Skok na predogled"
 
 #: src/widgets/window.rs:52
 msgid "Press the Super key to see open windows and apps."
-msgstr ""
+msgstr "Pritisnite na gumb Dejavnosti za seznam oken in programov."
 
 #: src/widgets/window.rs:62
 msgid "Up/Down for the Overview"
-msgstr ""
+msgstr "Gor/Dol za pregled"
 
 #: src/widgets/window.rs:63
 msgid "On a touchpad, use three-finger vertical swipes. Try it!"
 msgstr ""
+"Na sledilni ploščici lahko uporabite triprsten poteg za navpičen pomik. "
+"Poskusite!"
 
 #: src/widgets/window.rs:73
 msgid "Left/Right for Workspaces"
-msgstr ""
+msgstr "Levo/Desno za prehod med delovnimi površinami"
 
 #: src/widgets/window.rs:74
 msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
 msgstr ""
+"Na sledilni ploščici lahko uporabite triprsten poteg za vodoraven pomik. "
+"Poskusite!"
 
 #: src/widgets/window.rs:85
 msgid "That's it. Have a nice day!"
-msgstr ""
+msgstr "To je vse. Želimo vam prijetno uporabo!"
 
 #: src/widgets/window.rs:86
 msgid "To get more advice and tips, see the Help app."
-msgstr ""
+msgstr "Za več nasvetov in namigov si oglejte Pomoč."

@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the gnome-tour package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Will Thompson <wjt@endlessos.org>, 2022
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-tour\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-08 00:11+0000\n"
+"POT-Creation-Date: 2022-12-13 22:35+0000\n"
 "PO-Revision-Date: 2022-12-08 00:11+0000\n"
+"Last-Translator: Will Thompson <wjt@endlessos.org>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/endless-os/teams/9016/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,35 +24,35 @@ msgstr ""
 #: data/org.gnome.Tour.desktop.in.in:3
 #: data/org.gnome.Tour.metainfo.xml.in.in:7 src/main.rs:19
 msgid "Tour"
-msgstr ""
+msgstr "Visita guidata"
 
 #: data/org.gnome.Tour.desktop.in.in:4
 msgid "Greeter & Tour"
-msgstr ""
+msgstr "Visita guidata e accoglienza"
 
 #: data/org.gnome.Tour.desktop.in.in:9
 msgid "Gnome;GTK;"
-msgstr ""
+msgstr "Gnome;GTK;"
 
 #: data/org.gnome.Tour.metainfo.xml.in.in:8
 msgid "GNOME Tour and Greeter"
-msgstr ""
+msgstr "Visita guidata e accoglienza per GNOME"
 
 #: data/org.gnome.Tour.metainfo.xml.in.in:10
 msgid "A guided tour and greeter for GNOME."
-msgstr ""
+msgstr "Una visita guidata e un messaggio di accoglienza per GNOME."
 
 #: data/org.gnome.Tour.metainfo.xml.in.in:15
 msgid "Main Window"
-msgstr ""
+msgstr "Finestra principale"
 
 #: data/org.gnome.Tour.metainfo.xml.in.in:38
 msgid "The GNOME Project"
-msgstr ""
+msgstr "Il progetto GNOME"
 
 #: src/widgets/pages/welcome.rs:151
 msgid "Start the Tour"
-msgstr ""
+msgstr "Avvia la visita"
 
 #: src/widgets/pages/welcome.rs:161
 msgid "Learn about the key features in {} {}."
@@ -60,23 +64,23 @@ msgstr ""
 
 #: src/widgets/paginator.rs:32
 msgid "_Start"
-msgstr ""
+msgstr "_Avvia"
 
 #: src/widgets/paginator.rs:33
 msgid "_Next"
-msgstr ""
+msgstr "_Successivo"
 
 #: src/widgets/paginator.rs:34 src/widgets/paginator.rs:35
 msgid "_Close"
-msgstr ""
+msgstr "_Chiudi"
 
 #: src/widgets/paginator.rs:36
 msgid "_Previous"
-msgstr ""
+msgstr "_Precedente"
 
 #: src/widgets/window.rs:51
 msgid "Get an Overview"
-msgstr ""
+msgstr "Ottieni una panoramica"
 
 #: src/widgets/window.rs:52
 msgid "Press the Super key to see open windows and apps."
@@ -84,19 +88,19 @@ msgstr ""
 
 #: src/widgets/window.rs:62
 msgid "Up/Down for the Overview"
-msgstr ""
+msgstr "Su/Giù per la panoramica"
 
 #: src/widgets/window.rs:63
 msgid "On a touchpad, use three-finger vertical swipes. Try it!"
-msgstr ""
+msgstr "Con un touchpad usa scorrimenti verticali a tre dita. Prova!"
 
 #: src/widgets/window.rs:73
 msgid "Left/Right for Workspaces"
-msgstr ""
+msgstr "Sinistra/Destra per gli spazi di lavoro"
 
 #: src/widgets/window.rs:74
 msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
-msgstr ""
+msgstr "Con un touchpad usa scorrimenti orizzontali a tre dita. Prova!"
 
 #: src/widgets/window.rs:85
 msgid "That's it. Have a nice day!"
@@ -104,4 +108,4 @@ msgstr ""
 
 #: src/widgets/window.rs:86
 msgid "To get more advice and tips, see the Help app."
-msgstr ""
+msgstr "Per maggiore aiuto o consigli, consulta l'app Aiuto."
