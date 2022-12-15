@@ -56,7 +56,7 @@ msgstr "Empezar el tour"
 
 #: src/widgets/pages/welcome.rs:161
 msgid "Learn about the key features in {} {}."
-msgstr ""
+msgstr "Aprender más sobre las características esenciales en {} {}."
 
 #: src/widgets/pages/welcome.rs:171 src/widgets/window.rs:89
 msgid "Learn more about Endless OS 5 on our website"
@@ -85,6 +85,7 @@ msgstr "Obtener una visión general"
 #: src/widgets/window.rs:52
 msgid "Press the Super key to see open windows and apps."
 msgstr ""
+"Pulse la tecla Súper para ver todas las ventanas y aplicaciones abiertas."
 
 #: src/widgets/window.rs:62
 msgid "Up/Down for the Overview"
@@ -108,7 +109,7 @@ msgstr ""
 
 #: src/widgets/window.rs:85
 msgid "That's it. Have a nice day!"
-msgstr ""
+msgstr "Eso es todo. Que tenga un buen día."
 
 #: src/widgets/window.rs:86
 msgid "To get more advice and tips, see the Help app."

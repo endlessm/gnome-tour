@@ -36,7 +36,7 @@ msgstr "Gnome;GTK;"
 
 #: data/org.gnome.Tour.metainfo.xml.in.in:8
 msgid "GNOME Tour and Greeter"
-msgstr ""
+msgstr "GNOME ceļvedis un sveicējs"
 
 #: data/org.gnome.Tour.metainfo.xml.in.in:10
 msgid "A guided tour and greeter for GNOME."
@@ -52,7 +52,7 @@ msgstr "GNOME projekts"
 
 #: src/widgets/pages/welcome.rs:151
 msgid "Start the Tour"
-msgstr ""
+msgstr "Sākt ceļojumu"
 
 #: src/widgets/pages/welcome.rs:161
 msgid "Learn about the key features in {} {}."
@@ -80,31 +80,34 @@ msgstr "Ie_priekšējais"
 
 #: src/widgets/window.rs:51
 msgid "Get an Overview"
-msgstr ""
+msgstr "Iegūt pārskatu"
 
 #: src/widgets/window.rs:52
 msgid "Press the Super key to see open windows and apps."
-msgstr ""
+msgstr "Spiediet Super taustiņu, lai atvērtu logus un lietotnes."
 
 #: src/widgets/window.rs:62
 msgid "Up/Down for the Overview"
-msgstr ""
+msgstr "Uz augšu/leju pārskatam"
 
 #: src/widgets/window.rs:63
 msgid "On a touchpad, use three-finger vertical swipes. Try it!"
 msgstr ""
+"Uz skārienpaliktņa izmantojiet trīs pirkstu vertikālo vilkšanu. Pamēģiniet!"
 
 #: src/widgets/window.rs:73
 msgid "Left/Right for Workspaces"
-msgstr ""
+msgstr "Pa labi/kreisi darbvirsmām"
 
 #: src/widgets/window.rs:74
 msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
 msgstr ""
+"Uz skārienpaliktņa izmantojiet trīs pirkstu horizontālo vilkšanu. "
+"Pamēģiniet!"
 
 #: src/widgets/window.rs:85
 msgid "That's it. Have a nice day!"
-msgstr ""
+msgstr "Tas arī viss. Lai jums jauka diena!"
 
 #: src/widgets/window.rs:86
 msgid "To get more advice and tips, see the Help app."

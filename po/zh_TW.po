@@ -84,7 +84,7 @@ msgstr "全局概覽"
 
 #: src/widgets/window.rs:52
 msgid "Press the Super key to see open windows and apps."
-msgstr ""
+msgstr "按下 Super 鍵可以查看開啟的視窗與應用程式。"
 
 #: src/widgets/window.rs:62
 msgid "Up/Down for the Overview"
@@ -104,7 +104,7 @@ msgstr "在觸控板上，用三隻指頭同時水平撥滑。試試吧！"
 
 #: src/widgets/window.rs:85
 msgid "That's it. Have a nice day!"
-msgstr ""
+msgstr "就這樣囉！祝您使用愉快。"
 
 #: src/widgets/window.rs:86
 msgid "To get more advice and tips, see the Help app."

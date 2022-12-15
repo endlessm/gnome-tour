@@ -56,11 +56,11 @@ msgstr "Start the Tour"
 
 #: src/widgets/pages/welcome.rs:161
 msgid "Learn about the key features in {} {}."
-msgstr ""
+msgstr "Learn about the key features in {} {}."
 
 #: src/widgets/pages/welcome.rs:171 src/widgets/window.rs:89
 msgid "Learn more about Endless OS 5 on our website"
-msgstr ""
+msgstr "Learn more about Endless OS 5 on our website"
 
 #: src/widgets/paginator.rs:32
 msgid "_Start"
@@ -84,7 +84,7 @@ msgstr "Get an Overview"
 
 #: src/widgets/window.rs:52
 msgid "Press the Super key to see open windows and apps."
-msgstr ""
+msgstr "Press the Super key to see open windows and apps."
 
 #: src/widgets/window.rs:62
 msgid "Up/Down for the Overview"
@@ -104,7 +104,7 @@ msgstr "On a touchpad, use three-finger horizontal swipes. Try it!"
 
 #: src/widgets/window.rs:85
 msgid "That's it. Have a nice day!"
-msgstr ""
+msgstr "That's it. Enjoy the rest of your day!"
 
 #: src/widgets/window.rs:86
 msgid "To get more advice and tips, see the Help app."

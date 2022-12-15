@@ -84,7 +84,7 @@ msgstr "Ottieni una panoramica"
 
 #: src/widgets/window.rs:52
 msgid "Press the Super key to see open windows and apps."
-msgstr ""
+msgstr "Premi Super per visualizzare finestre e app aperte."
 
 #: src/widgets/window.rs:62
 msgid "Up/Down for the Overview"
@@ -104,7 +104,7 @@ msgstr "Con un touchpad usa scorrimenti orizzontali a tre dita. Prova!"
 
 #: src/widgets/window.rs:85
 msgid "That's it. Have a nice day!"
-msgstr ""
+msgstr "Questo è tutto, buona giornata!"
 
 #: src/widgets/window.rs:86
 msgid "To get more advice and tips, see the Help app."

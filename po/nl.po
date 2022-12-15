@@ -85,6 +85,7 @@ msgstr "Verkrijg een overzicht"
 #: src/widgets/window.rs:52
 msgid "Press the Super key to see open windows and apps."
 msgstr ""
+"Druk op de Super-toets om geopende vensters en toepassingen te bekijken."
 
 #: src/widgets/window.rs:62
 msgid "Up/Down for the Overview"
@@ -108,7 +109,7 @@ msgstr ""
 
 #: src/widgets/window.rs:85
 msgid "That's it. Have a nice day!"
-msgstr ""
+msgstr "Dat is alles. Fijne dag nog!"
 
 #: src/widgets/window.rs:86
 msgid "To get more advice and tips, see the Help app."

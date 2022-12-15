@@ -36,7 +36,7 @@ msgstr "Gnome;GTK;"
 
 #: data/org.gnome.Tour.metainfo.xml.in.in:8
 msgid "GNOME Tour and Greeter"
-msgstr ""
+msgstr "GNOME のツアー/案内"
 
 #: data/org.gnome.Tour.metainfo.xml.in.in:10
 msgid "A guided tour and greeter for GNOME."
@@ -52,7 +52,7 @@ msgstr "The GNOME Project"
 
 #: src/widgets/pages/welcome.rs:151
 msgid "Start the Tour"
-msgstr ""
+msgstr "ツアーを始める"
 
 #: src/widgets/pages/welcome.rs:161
 msgid "Learn about the key features in {} {}."
@@ -80,31 +80,31 @@ msgstr "前へ(_P)"
 
 #: src/widgets/window.rs:51
 msgid "Get an Overview"
-msgstr ""
+msgstr "全体を見渡す"
 
 #: src/widgets/window.rs:52
 msgid "Press the Super key to see open windows and apps."
-msgstr ""
+msgstr "Super キーを押すと、開いているウィンドウ/アプリが表示されます。"
 
 #: src/widgets/window.rs:62
 msgid "Up/Down for the Overview"
-msgstr ""
+msgstr "縦方向ジェスチャーでオーバービュー画面を操作する"
 
 #: src/widgets/window.rs:63
 msgid "On a touchpad, use three-finger vertical swipes. Try it!"
-msgstr ""
+msgstr "3 本の指でタッチパッドを上下にスワイプしてみてください!"
 
 #: src/widgets/window.rs:73
 msgid "Left/Right for Workspaces"
-msgstr ""
+msgstr "横方向ジェスチャーでワークスペースを操作する"
 
 #: src/widgets/window.rs:74
 msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
-msgstr ""
+msgstr "3 本の指でタッチパッドを左右にスワイプしてみてください!"
 
 #: src/widgets/window.rs:85
 msgid "That's it. Have a nice day!"
-msgstr ""
+msgstr "以上です。良い一日を!"
 
 #: src/widgets/window.rs:86
 msgid "To get more advice and tips, see the Help app."

@@ -84,7 +84,7 @@ msgstr "Získejte přehled"
 
 #: src/widgets/window.rs:52
 msgid "Press the Super key to see open windows and apps."
-msgstr ""
+msgstr "Po zmáčknutí klávesy Super uvidíte otevřená okna a aplikace."
 
 #: src/widgets/window.rs:62
 msgid "Up/Down for the Overview"
@@ -104,7 +104,7 @@ msgstr "Na touchpadu použijte vodorovné máchnutí třemi prsty. Zkuste si to!
 
 #: src/widgets/window.rs:85
 msgid "That's it. Have a nice day!"
-msgstr ""
+msgstr "A to je vše. Přejeme hezký den!"
 
 #: src/widgets/window.rs:86
 msgid "To get more advice and tips, see the Help app."
