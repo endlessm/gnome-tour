@@ -60,7 +60,7 @@ msgstr "Aprender más sobre las características esenciales en {} {}."
 
 #: src/widgets/pages/welcome.rs:171 src/widgets/window.rs:89
 msgid "Learn more about Endless OS 5 on our website"
-msgstr ""
+msgstr "Obtén más información de Endless OS 5 en nuestra página web"
 
 #: src/widgets/paginator.rs:32
 msgid "_Start"
