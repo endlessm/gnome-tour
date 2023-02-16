@@ -167,7 +167,7 @@ impl WelcomePageWidget {
         container.add(&text);
 
         let welcome_url = format!(
-            "<a href=\"https://www.endlessos.org/post/endless-os-5-is-coming\">{}</a>",
+            "<a href=\"https://support.endlessos.org/endless-os/release-notes/5\">{}</a>",
             gettext("Learn more about Endless OS 5 on our website")
         );
         let url_label = gtk::LabelBuilder::new()

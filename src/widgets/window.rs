@@ -85,7 +85,7 @@ impl Window {
             gettext("That's it. Have a nice day!"),
             gettext("To get more advice and tips, see the Help app."),
             Some(format!(
-                "<a href=\"https://www.endlessos.org/post/endless-os-5-is-coming\">{}</a>",
+                "<a href=\"https://support.endlessos.org/endless-os/release-notes/5\">{}</a>",
                 gettext("Learn more about Endless OS 5 on our website")
             )),
         );
