@@ -3,5 +3,19 @@
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 export DEB_LDFLAGS_MAINT_APPEND = -Wl,-z,defs
 
+include /usr/share/dpkg/default.mk
+include /usr/share/rustc/architecture.mk
+export CARGO=/usr/share/cargo/bin/cargo
+export CARGO_HOME=$(shell pwd)/debian/cargo_home
+export CARGO_REGISTRY=$(shell pwd)/debian/cargo_registry
+export DEB_CARGO_CRATE=$(DEB_SOURCE)_$(DEB_VERSION_UPSTREAM)
+export DEB_HOST_RUST_TYPE
+
 %:
 	dh $@
+
+execute_after_dh_auto_clean:
+	$(CARGO) clean
+
+execute_before_dh_auto_configure:
+	$(CARGO) prepare-debian $(CARGO_REGISTRY) --link-from-system
