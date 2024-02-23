@@ -1,3 +1,9 @@
+gnome-tour (43.0-0endless1) master; urgency=medium
+
+  * Update to gnome-tour 43 (T35075)
+
+ -- Dylan McCall <dylan@endlessos.org>  Thu, 15 Feb 2024 12:22:55 -0800
+
 gnome-tour (41~rc-0endless1) master; urgency=medium
 
   * Initial release, T32829
