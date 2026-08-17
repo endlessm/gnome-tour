@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Will Thompson <wjt@endlessos.org>, 2022
+# Pavel Borecki <pavel.borecki@gmail.com>, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-tour\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-24 09:43+0000\n"
+"POT-Creation-Date: 2026-08-17 10:54+0000\n"
 "PO-Revision-Date: 2022-12-08 00:11+0000\n"
-"Last-Translator: Will Thompson <wjt@endlessos.org>, 2022\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>, 2026\n"
 "Language-Team: Czech (https://app.transifex.com/endless-os/teams/9016/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,15 +49,15 @@ msgstr "Projekt GNOME"
 
 #: data/resources/ui/paginator.ui:27
 msgid "Previous"
-msgstr ""
+msgstr "Předchozí"
 
 #: data/resources/ui/paginator.ui:40
 msgid "Next"
-msgstr ""
+msgstr "Další"
 
 #: data/resources/ui/paginator.ui:53
 msgid "Start"
-msgstr ""
+msgstr "Spustit"
 
 #: data/resources/ui/window.ui:11
 msgid "Start the Tour"
@@ -76,7 +77,7 @@ msgstr "Nahoru/dolů do přehledu"
 
 #: data/resources/ui/window.ui:25
 msgid "On a touchpad, use three-finger vertical swipes. Try it!"
-msgstr "Na touchpadu použijte svislé máchnutí třemi prsty. Zkuste si to!"
+msgstr "Na touchpadu použijte svislá máchnutí třemi prsty. Zkuste si to!"
 
 #: data/resources/ui/window.ui:31
 msgid "Left/Right for Workspaces"
@@ -84,7 +85,7 @@ msgstr "Vlevo/vpravo do pracovních ploch"
 
 #: data/resources/ui/window.ui:32
 msgid "On a touchpad, use three-finger horizontal swipes. Try it!"
-msgstr "Na touchpadu použijte vodorovné máchnutí třemi prsty. Zkuste si to!"
+msgstr "Na touchpadu použijte vodorovná máchnutí třemi prsty. Zkuste si to!"
 
 #: data/resources/ui/window.ui:38
 msgid "That's it. Have a nice day!"
@@ -98,4 +99,4 @@ msgstr "Další rady a tipy najdete v aplikaci Nápověda."
 #. essential features in GNOME 3.36" for example
 #: src/widgets/window.rs:52
 msgid "Learn about the key features in {name} {version}."
-msgstr ""
+msgstr "Zjistěte více o klíčových funkcích v {name} {version}."
